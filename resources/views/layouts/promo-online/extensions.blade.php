@@ -1,64 +1,95 @@
-<div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+<div id="{{$id}}" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div class="flex flex-col mb-6 lg:flex-row md:mb-10">
     <div class="lg:w-1/2">
       <h2 class="max-w-md mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
-        The quick, brown fox jumps over a lazy dog
+        Преимущества обучения с
+        <span class="text-primary-400">онлайн репетитором</span>
       </h2>
     </div>
     <div class="lg:w-1/2">
       <p class="text-base text-gray-700 md:text-lg">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut unde omnis iste natus.
+        Не бойся начинать онлайн обучение, это не сложно! <br> С нашей системой справится даже ребенок
       </p>
     </div>
   </div>
   <div class="grid gap-8 row-gap-10 sm:grid-cols-2 lg:grid-cols-4">
-    <div class="max-w-md">
-      <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+
+    <div class="max-w-md grid grid-cols-1 justify-items-center place-content-start">
+      <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-100">
+        <svg class="w-10 h-10 text-gray-600" fill="currentColor" viewBox="0 0 512 512">
+          <path d="M184.889 294.698h-4.571c-7.481 0-13.545 6.065-13.545 13.545s6.064 13.545 13.545 13.545h4.571c7.481 0 13.545-6.065 13.545-13.545s-6.064-13.545-13.545-13.545z"/>
+          <path d="M498.455 199.666a102.813 102.813 0 0 0-35.217 6.206V78.114c0-38.651-31.445-70.095-70.095-70.095H118.857c-38.651 0-70.095 31.445-70.095 70.095v127.759a102.794 102.794 0 0 0-35.217-6.206C6.064 199.666 0 205.732 0 213.211v183.304c0 29.161 21.058 53.48 48.762 58.593v35.328c0 7.479 6.064 13.545 13.545 13.545h71.721c7.481 0 13.545-6.065 13.545-13.545v-34.323h216.855v34.323c0 7.479 6.065 13.545 13.545 13.545h71.721c7.48 0 13.545-6.065 13.545-13.545v-35.328C490.942 449.996 512 425.676 512 396.516V213.211c0-7.479-6.065-13.545-13.545-13.545zM59.598 429.023c-17.924 0-32.508-14.583-32.508-32.508v-168.55a75.37 75.37 0 0 1 27.821 11.06c21.593 14.072 34.486 37.838 34.486 63.569v126.429H59.598zm60.885 47.868H75.852v-20.778h44.631v20.778zm13.545-47.868h-17.541V321.788h22.18c7.481 0 13.545-6.065 13.545-13.545 0-7.48-6.064-13.545-13.545-13.545h-22.491c-2.234-29.357-16.843-56.19-40.323-74.025V78.114c0-23.713 19.292-43.005 43.005-43.005h274.286c23.713 0 43.005 19.292 43.005 43.005v142.56c-23.48 17.839-38.09 44.67-40.323 74.025H225.524c-7.481 0-13.545 6.065-13.545 13.545s6.064 13.545 13.545 13.545h169.989v107.236H134.028zm302.12 47.868h-44.631v-20.778h44.631v20.778zm48.762-80.375c0 17.924-14.584 32.508-32.508 32.508h-29.799V302.595c0-25.731 12.892-49.496 34.49-63.573a75.367 75.367 0 0 1 27.817-11.057v168.551z"/>
         </svg>
       </div>
-      <h6 class="mb-2 font-semibold leading-5">The deep ocean</h6>
-      <p class="mb-3 text-sm text-gray-900">
-        A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.
-      </p>
-      <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+      <h6 class="mb-2 font-semibold leading-5">Удобство</h6>
+      <div>
+        <p class="mb-3 font-semibold text-sm text-primary-500">
+          <span class="border-l-4 border-primary-400 pl-2">
+            Обучайся там где тебе удобно
+          </span>
+        </p>
+        <p class="mb-3 text-sm text-gray-900">
+          A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.
+        </p>
+      </div>
     </div>
-    <div class="max-w-md">
-      <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+
+    <div class="max-w-md grid grid-cols-1 justify-items-center place-content-start">
+      <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-100">
+        <svg class="w-10 h-10 text-gray-600" fill="currentColor" viewBox="0 0 489.42 489.42">
+          <path d="M46.1 138.368c4.2 2.1 16.1 8.4 29.1-6.2 5.2-7.3 10.4-14.6 16.6-21.8 7.3-8.3 6.2-21.8-2.1-29.1-8.3-7.3-21.8-6.2-29.1 2.1s-14.6 17.7-20.8 27c-6.1 9.3-3 21.7 6.3 28zM249 40.568c19.8 0 39.5 3.1 58.3 9.4 12.6 3.7 21.8-4.2 26-12.5 3.1-11.4-3.1-22.9-13.5-26-22.9-7.3-45.8-11.4-69.7-11.4-11.4 0-20.8 8.3-20.8 19.8s8.3 20.7 19.7 20.7zM434.2 167.468c7.3 17.7 11.4 36.4 13.5 55.1 0 0 1.2 23.2 22.9 19.8 21.5-2.8 18.7-23.9 18.7-23.9-2.1-22.9-8.3-45.8-16.6-66.6-5.2-10.4-16.6-15.6-27-11.4-10.5 5.2-15.7 16.6-11.5 27zM359.3 75.968c16.6 11.4 31.2 25 43.7 40.6 9.3 11.6 25 6.8 28.1 3.1 8.3-7.3 10.4-20.8 3.1-29.1-14.6-17.7-32.3-34.3-52-47.9-9.4-6.2-21.8-4.2-28.1 5.2s-4.2 21.8 5.2 28.1zM134.6 72.768c16.6-10.4 35.4-18.7 54.1-23.9 11.4-3.1 17.7-14.6 14.6-25-3.1-11.4-14.6-17.7-25-14.6-22.9 6.2-44.7 15.6-64.5 28.1-9.4 6.2-12.5 18.7-6.2 28.1 4.1 6.3 12.9 12.5 27 7.3zM468.5 268.368c-11.4-3.1-21.8 4.2-23.9 15.6-2.1 9.4-8.5 31.3-8.6 33.4-27.5 71.5-93.5 121.8-169.3 129.9-74.6 7.8-147.2-25.9-189.3-86.5l38.5 8.5c10.4 2.1 21.8-4.2 23.9-15.6 2.1-10.4-4.2-21.8-15.6-23.9l-81.1-17.7c-5.2-1-21.4 0-25 15.6l-17.7 82.2c-2.1 10.4 4.2 21.8 15.6 23.9 12.7 1.3 21.8-6.2 25-16.6l6.2-28.2c46.3 62.7 129.9 109.1 223.7 99 94.6-10.2 174.8-73.9 206-163.3 1-2.6 5.7-24.4 7.3-32.3 3.1-11.5-4.2-21.9-15.7-24zM164.6 265.268h95.9c11.4 0 19.8-9.4 20.8-20.8v-142.2c0-11.4-9.4-20.8-20.8-20.8s-20.8 9.4-20.8 20.8v121.4h-75.1c-11.4 0-20.8 9.4-20.8 20.8s9.3 20.8 20.8 20.8z"/>
         </svg>
       </div>
-      <h6 class="mb-2 font-semibold leading-5">When has justice</h6>
-      <p class="mb-3 text-sm text-gray-900">
-        Rough pomfret lemon shark plownose chimaera southern sandfish kokanee northern sea robin Antarctic cod.
-      </p>
-      <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+      <h6 class="mb-2 font-semibold leading-5">Гибкость</h6>
+      <div>
+        <p class="mb-3 font-semibold text-sm text-primary-500">
+          <span class="border-l-4 border-primary-400 pl-2">
+            Учись в удобное время
+          </span>
+        </p>
+        <p class="mb-3 text-sm text-gray-900">
+          A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.
+        </p>
+      </div>
     </div>
-    <div class="max-w-md">
-      <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+    <div class="max-w-md grid grid-cols-1 justify-items-center place-content-start">
+      <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-100">
+        <svg class="w-10 h-10 text-gray-600" fill="currentColor" viewBox="-351 153 256 256">
+          <path d="M-118.7 170.3h-205.5c-13.2 0-23.8 10.6-23.8 23.8v127.3c0 13.2 10.6 23.8 23.8 23.8h70l35 45.9h68.1v-71.5c0-7.4-4.4-14.1-11.1-17.1l-46.1-19.4v-44c0-5.8-4.7-10.9-10.9-10.9h-.3c-5.6 0-10.2 4.4-10.6 9.7v87c0 1.4-1.2 2.6-2.6 2.6-1.4 0-2.6-1.2-2.6-2.6v-23.6c0-5.8-5-10.9-10.9-10.9s-10.9 5-10.9 10.9v26.3H-316v-140h188.7v140.3h-18.3v17.4h26.8c13.2 0 23.8-10.6 23.8-23.8V194.1c.1-13.3-10.5-23.8-23.7-23.8zm7.6 93.5c-3.4 0-6.2-2.8-6.2-6.2 0-3.4 2.8-6.2 6.2-6.2 3.4 0 6.2 2.8 6.2 6.2 0 3.4-2.8 6.2-6.2 6.2zm-92-5.3c.6.6 1.4.9 2.3.9s2.1-.3 2.6-1.2c4.4-5 6.7-11.8 6.7-18.5 0-15.6-12.7-28.2-28.2-28.2-15.6 0-28.2 12.7-28.2 28.2 0 6.5 2.3 12.9 6.5 17.9 1.2 1.4 3.5 1.8 5.3.6 1.4-1.2 1.8-3.5.6-5.3-3-3.9-4.7-8.5-4.7-13.2 0-11.4 9.4-20.9 20.9-20.9s20.9 9.4 20.9 20.9c0 5-1.8 10-5 13.5-1.5 1.7-1.1 4.1.3 5.3z"/>
         </svg>
       </div>
-      <h6 class="mb-2 font-semibold leading-5">Organically grow</h6>
-      <p class="mb-3 text-sm text-gray-900">
-        A slice of heaven. O for awesome, this chocka full cuzzie is as rip-off as a cracker.
-      </p>
-      <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+      <h6 class="mb-2 font-semibold leading-5">Мобильность</h6>
+      <div>
+        <p class="mb-3 font-semibold text-sm text-primary-500">
+          <span class="border-l-4 border-primary-400 pl-2">
+            Устройство не имеет значения
+          </span>
+        </p>
+        <p class="mb-3 text-sm text-gray-900">
+          A flower in my garden, a mystery in my panties.
+        </p>
+      </div>
     </div>
-    <div class="max-w-md">
-      <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-        <svg class="w-12 h-12 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+    <div class="max-w-md grid grid-cols-1 justify-items-center place-content-start">
+      <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-gray-100">
+        <svg class="w-10 h-10 text-gray-600" fill="currentColor" viewBox="0 0 511.968 511.968">
+          <path d="M256.976 107.864c-23.696 0-42.992 19.424-42.992 43.28s19.296 43.28 42.992 43.28c23.68 0 42.976-19.424 42.976-43.28s-19.28-43.28-42.976-43.28zm0 70.56c-14.88 0-26.992-12.24-26.992-27.28 0-15.04 12.128-27.28 26.992-27.28 14.88 0 26.976 12.24 26.976 27.28 0 15.04-12.096 27.28-26.976 27.28zM297.952 203.112l-3.904-1.184-37.056 28.208-37.072-28.208-3.904 1.184c-42.192 12.768-52.912 51.856-52.672 70.752l.096 7.904h187.104l.096-7.904c.224-18.896-10.496-57.984-52.688-70.752zm-117.904 62.656c1.984-12.416 9.36-35.968 36.8-46.08l40.144 30.528 40.144-30.528c27.424 10.112 34.8 33.664 36.784 46.08H180.048z"/>
+          <path d="M466.96 49.96H45.152v.016c-18.432 0-33.456 15.264-33.456 34.096v224.912c0 18.8 15.024 34.096 33.456 34.096H466.96c18.464 0 33.424-15.264 33.424-34.096V84.056c0-18.832-14.96-34.096-33.424-34.096zm17.424 259.008c0 9.968-7.824 18.096-17.424 18.096H45.152c-9.616 0-17.456-8.112-17.456-18.096V84.056c0-9.968 7.824-18.096 17.456-18.096H466.96c9.616.016 17.424 8.128 17.424 18.096v224.912zM148.128 418.824c-3.6-15.552-17.36-27.184-33.888-27.184s-30.288 11.616-33.888 27.184H0v16h80.368c3.6 15.552 17.36 27.184 33.888 27.184s30.288-11.632 33.888-27.184h363.824v-16h-363.84z"/>
         </svg>
       </div>
-      <h6 class="mb-2 font-semibold leading-5">A slice of heaven</h6>
-      <p class="mb-3 text-sm text-gray-900">
-        Disrupt inspire and think tank, social entrepreneur but preliminary thinking think tank compelling.
-      </p>
-      <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+      <h6 class="mb-2 font-semibold leading-5">Интерактивность</h6>
+      <div>
+        <p class="mb-3 font-semibold text-sm text-primary-500">
+          <span class="border-l-4 border-primary-400 pl-2">
+            Используй новейшие технологии
+          </span>
+        </p>
+        <p class="mb-3 text-sm text-gray-900">
+          A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.
+        </p>
+      </div>
     </div>
+
+
   </div>
 </div>

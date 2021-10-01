@@ -1,91 +1,127 @@
-<div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+<div id="{{$id}}" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
     <div>
-      <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-        Brand new
+      <p class="inline-block px-4 py-2 mb-4 text-xs font-semibold tracking-wider text-white uppercase rounded-full bg-primary-400">
+        Tutor-Math
       </p>
     </div>
     <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
       <span class="relative inline-block">
-        <svg viewBox="0 0 52 24" fill="currentColor" class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+        <svg viewBox="0 0 100 100" fill="currentColor" class="absolute top-0 left-0 z-0 hidden h-32 w-32 -mt-8 -ml-20 text-primary-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
           <defs>
-            <pattern id="27df4f81-c854-45de-942a-fe90f7a300f9" x="0" y="0" width=".135" height=".30">
-              <circle cx="1" cy="1" r=".7"></circle>
+            <pattern id="27df4f81-c854-45de-942a-fe90f7a300f9" x="0" y="0" width="1" height="1">
+              {{-- <path id="dsc" d="M0 0h12v6H0V0Zm28 8h12v6H28V8Zm14-8h12v6H42V0Zm14 0h12v6H56V0Zm0 8h12v6H56V8ZM42 8h12v6H42V8Zm0 16h12v6H42v-6Zm14-8h12v6H56v-6Zm14 0h12v6H70v-6Zm0-16h12v6H70V0ZM28 32h12v6H28v-6ZM14 16h12v6H14v-6ZM0 24h12v6H0v-6Zm0 8h12v6H0v-6Zm14 0h12v6H14v-6Zm14 8h12v6H28v-6Zm-14 0h12v6H14v-6Zm28 0h12v6H42v-6Zm14-8h12v6H56v-6Zm0-8h12v6H56v-6Zm14 8h12v6H70v-6Zm0 8h12v6H70v-6ZM14 24h12v6H14v-6Zm14-8h12v6H28v-6ZM14 8h12v6H14V8ZM0 8h12v6H0V8Z"/> --}}
+              <path d="M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14Zm48 25a7 7 0 1 0 0-14 7 7 0 0 0 0 14Zm-43-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm63 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM34 90a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm56-76a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM12 86a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm28-65a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm23-11a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm-6 60a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm29 22a5 5 0 1 0 0-10 5 5 0 0 0 0 10ZM32 63a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm57-13a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm-9-21a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM60 91a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM35 41a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM12 60a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+              {{-- <circle cx="1" cy="1" r=".7"></circle> --}}
             </pattern>
           </defs>
-          <rect fill="url(#27df4f81-c854-45de-942a-fe90f7a300f9)" width="52" height="24"></rect>
+          <rect fill="url(#27df4f81-c854-45de-942a-fe90f7a300f9)" width="100" height="80"></rect>
         </svg>
-        <span class="relative">The</span>
+        <span class="relative">Направления</span>
       </span>
-      quick, brown fox jumps over a lazy dog
+      <span class="text-primary-400">онлайн обучения</span>
     </h2>
     <p class="text-base text-gray-700 md:text-lg">
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.
+      <div class="subtitle--bg">
+        <span>выберите один или несколько направлений для обучения и начинай развиваться уже сегодня</span>
+      </div>
     </p>
   </div>
   <div class="grid max-w-screen-lg gap-8 row-gap-10 mx-auto lg:grid-cols-2">
     <div class="flex flex-col max-w-md sm:mx-auto sm:flex-row">
       <div class="mr-4">
-        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-          <svg class="w-10 h-10 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-gray-100">
+          <svg class="w-10 h-10 text-gray-600" fill="currentColor" viewBox="0 0 512 512">
+            <path d="M495.594 415.73h-33.369V229.648h33.067c13.303 0 20.667-13.9 14.5-24.582L446.924 96.175a16.389 16.389 0 0 0-14.192-8.194H307.974c-4.205 0-6.834 4.553-4.731 8.194l10.802 18.71c5.635 9.76-8.49 17.535-13.963 8.565l-29.894-51.776c-6.306-10.918-22.089-10.898-28.383 0l-29.897 51.78c-5.515 9.025-19.573 1.153-13.958-8.571l10.802-18.71c2.102-3.641-.526-8.194-4.731-8.194H79.266a16.386 16.386 0 0 0-14.192 8.195L2.207 205.067c-6.16 10.67 1.183 24.582 14.5 24.582h33.067V415.73h-33.37c-9.051 0-16.388 7.337-16.388 16.388 0 9.05 7.337 16.388 16.388 16.388h479.19c9.05 0 16.388-7.337 16.388-16.388 0-9.05-7.337-16.388-16.388-16.388zM242.651 192.855h26.695c9.051 0 16.388 7.337 16.388 16.388 0 9.051-7.337 16.388-16.388 16.388h-26.695c-9.051 0-16.388-7.337-16.388-16.388 0-9.05 7.337-16.388 16.388-16.388zm-91.75 190.787h-45.369c-9.051 0-16.388-7.337-16.388-16.388s7.337-16.388 16.388-16.388h45.369c9.05 0 16.388 7.337 16.388 16.388s-7.337 16.388-16.388 16.388zm0-54.05h-45.369c-9.051 0-16.388-7.337-16.388-16.388s7.337-16.388 16.388-16.388h45.369c9.05 0 16.388 7.337 16.388 16.388s-7.337 16.388-16.388 16.388zm165.363 86.138h-120.53V313.204c0-9.051 7.337-16.388 16.388-16.388h87.754c9.05 0 16.388 7.337 16.388 16.388V415.73zm90.202-32.088h-45.368c-9.051 0-16.388-7.337-16.388-16.388s7.337-16.388 16.388-16.388h45.368c9.05 0 16.388 7.337 16.388 16.388s-7.338 16.388-16.388 16.388zm0-54.05h-45.368c-9.051 0-16.388-7.337-16.388-16.388s7.337-16.388 16.388-16.388h45.368c9.05 0 16.388 7.337 16.388 16.388s-7.338 16.388-16.388 16.388z"/>
           </svg>
         </div>
       </div>
       <div>
-        <h6 class="mb-3 text-xl font-bold leading-5">The deep ocean</h6>
+        <h6 class="mb-3 text-xl font-bold leading-5">Школьная программа</h6>
         <p class="mb-3 text-sm text-gray-900">
           A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear. We never had the chance to.
         </p>
-        <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+        <div class="flex justify-center md:justify-start">
+          <button
+            type="submit"
+            class="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
+          >
+            Вперед
+          </button>
+        </div>
       </div>
     </div>
     <div class="flex flex-col max-w-md sm:mx-auto sm:flex-row">
       <div class="mr-4">
-        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-          <svg class="w-10 h-10 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-gray-100">
+          <svg class="w-10 h-10 text-gray-600" fill="currentColor" viewBox="0 0 512 512">
+            <path d="M375.451 315.733a8.536 8.536 0 0 0-8.533-8.533h-51.2c-4.71 0-8.533 3.823-8.533 8.533s3.823 8.533 8.533 8.533h51.2c4.71.001 8.533-3.822 8.533-8.533zM341.317 93.867V51.2c0-4.71-3.823-8.533-8.533-8.533s-8.533 3.823-8.533 8.533v42.667c0 23.526 19.14 42.667 42.667 42.667h76.8v162.133c0 4.71 3.823 8.533 8.533 8.533s8.533-3.823 8.533-8.533V128a8.536 8.536 0 0 0-8.533-8.533h-85.333c-14.115 0-25.601-11.486-25.601-25.6zM366.917 204.8H298.65a8.536 8.536 0 0 0-8.533 8.533 8.536 8.536 0 0 0 8.533 8.533h68.267a8.536 8.536 0 0 0 8.533-8.533c.001-4.71-3.822-8.533-8.533-8.533zM273.051 213.333a8.536 8.536 0 0 0-8.533-8.533h-51.2a8.536 8.536 0 0 0-8.533 8.533 8.536 8.536 0 0 0 8.533 8.533h51.2c4.71.001 8.533-3.822 8.533-8.533zM213.317 256a8.536 8.536 0 0 0-8.533 8.533 8.536 8.536 0 0 0 8.533 8.533h17.067a8.536 8.536 0 0 0 8.533-8.533 8.536 8.536 0 0 0-8.533-8.533h-17.067zM213.317 170.667h85.333a8.536 8.536 0 0 0 8.533-8.533 8.536 8.536 0 0 0-8.533-8.533h-85.333a8.536 8.536 0 0 0-8.533 8.533 8.536 8.536 0 0 0 8.533 8.533zM264.517 273.067h85.333a8.536 8.536 0 0 0 8.533-8.533 8.536 8.536 0 0 0-8.533-8.533h-85.333a8.536 8.536 0 0 0-8.533 8.533 8.536 8.536 0 0 0 8.533 8.533zM315.717 358.4c-4.71 0-8.533 3.823-8.533 8.533s3.823 8.533 8.533 8.533h17.067c4.71 0 8.533-3.823 8.533-8.533s-3.823-8.533-8.533-8.533h-17.067zM281.584 307.2h-68.267c-4.71 0-8.533 3.823-8.533 8.533s3.823 8.533 8.533 8.533h68.267c4.71 0 8.533-3.823 8.533-8.533s-3.823-8.533-8.533-8.533zM281.584 358.4h-68.267c-4.71 0-8.533 3.823-8.533 8.533s3.823 8.533 8.533 8.533h68.267c4.71 0 8.533-3.823 8.533-8.533s-3.823-8.533-8.533-8.533zM484.754 351.497l-17.067-17.067c-13.116-13.116-33.101-13.09-46.199 0L309.684 446.234a8.546 8.546 0 0 0-2.5 6.033v51.2a8.536 8.536 0 0 0 8.533 8.533h51.2a8.546 8.546 0 0 0 6.033-2.5l111.804-111.804c13.594-13.594 13.594-32.597 0-46.199zm-74.3 18.099 13.534 13.534-74.138 74.138-13.534-13.534 74.138-74.138zm-86.203 125.337v-39.134l39.134 39.134h-39.134zm51.2-12.066-13.534-13.534 74.138-74.138 13.534 13.534-74.138 74.138zm97.237-97.237-11.034 11.034-39.134-39.134 11.034-11.034c6.741-6.733 15.292-6.767 22.067 0l17.067 17.067c6.903 6.912 6.903 15.163 0 22.067z"/>
+            <path d="M281.584 494.933H59.717c-14.114 0-25.6-11.486-25.6-25.6V42.667c0-14.114 11.486-25.6 25.6-25.6h269.534L412.084 99.9a8.523 8.523 0 0 0 12.066 0 8.523 8.523 0 0 0 0-12.066L338.817 2.5a8.513 8.513 0 0 0-6.033-2.5H59.717C36.191 0 17.051 19.14 17.051 42.667v426.667c0 23.526 19.14 42.667 42.667 42.667h221.867c4.71 0 8.533-3.823 8.533-8.533s-3.824-8.535-8.534-8.535z"/>
+            <path d="M281.584 409.6h-68.267c-4.71 0-8.533 3.823-8.533 8.533s3.823 8.533 8.533 8.533h68.267c4.71 0 8.533-3.823 8.533-8.533s-3.823-8.533-8.533-8.533zM170.651 162.133a8.536 8.536 0 0 0-8.533-8.533h-51.2a8.536 8.536 0 0 0-8.533 8.533v51.2a8.536 8.536 0 0 0 8.533 8.533h51.2a8.536 8.536 0 0 0 8.533-8.533v-51.2zM153.584 204.8h-34.133v-34.133h34.133V204.8zM110.917 426.667h51.2a8.536 8.536 0 0 0 8.533-8.533v-51.2a8.536 8.536 0 0 0-8.533-8.533h-51.2a8.536 8.536 0 0 0-8.533 8.533v51.2a8.536 8.536 0 0 0 8.533 8.533zm8.534-51.2h34.133V409.6h-34.133v-34.133zM121.951 321.766a8.54 8.54 0 0 0 6.878 2.457 8.513 8.513 0 0 0 6.255-3.755l34.133-51.2c2.611-3.925 1.553-9.225-2.364-11.836a8.533 8.533 0 0 0-11.836 2.364l-28.356 42.539-9.711-9.702c-3.336-3.337-8.73-3.337-12.066 0s-3.337 8.73 0 12.066l17.067 17.067z"/>
           </svg>
         </div>
       </div>
       <div>
-        <h6 class="mb-3 text-xl font-bold leading-5">When has justice</h6>
+        <h6 class="mb-3 text-xl font-bold leading-5">Подготовка к контрольным, экзаменам</h6>
         <p class="mb-3 text-sm text-gray-900">
           Rough pomfret lemon shark plownose chimaera southern sandfish kokanee northern sea robin Antarctic cod. Yellow-and-black triplefin gulper South American Lungfish mahi-mahi, butterflyfish glass catfish soapfish ling gray mullet!
         </p>
-        <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+        <div class="flex justify-center md:justify-start">
+          <button
+            type="submit"
+            class="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
+          >
+            Вперед
+          </button>
+        </div>
       </div>
     </div>
     <div class="flex flex-col max-w-md sm:mx-auto sm:flex-row">
       <div class="mr-4">
-        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-          <svg class="w-10 h-10 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-gray-100">
+          <svg class="w-10 h-10 text-gray-600" fill="currentColor" viewBox="0 0 470 470">
+            <path d="M192.465 294.786h-12.5v-25.895c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v25.895H148.31v-55.895c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v55.895h-16.654v-25.895c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v25.895H85v-55.895c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v63.395a7.5 7.5 0 0 0 7.5 7.5h114.965a7.5 7.5 0 0 0 0-15zM192.465 53.251H77.5c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h114.965a7.5 7.5 0 0 0 0-15zM192.465 88.879H77.5c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h114.965a7.5 7.5 0 0 0 0-15zM77.5 139.507h57.482c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5H77.5c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5zM192.465 160.135H77.5c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h114.965a7.5 7.5 0 0 0 0-15zM192.465 195.763H77.5c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h114.965a7.5 7.5 0 0 0 0-15zM235 58.675a7.5 7.5 0 0 0-7.5 7.5v252.848c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5V66.175c0-4.143-3.357-7.5-7.5-7.5z"/>
+            <path d="M462.5 73.251H440v-52.5a7.5 7.5 0 0 0-7.5-7.5H263.732A41.879 41.879 0 0 0 235 24.624a41.883 41.883 0 0 0-28.732-11.373H37.5a7.5 7.5 0 0 0-7.5 7.5v52.5H7.5a7.5 7.5 0 0 0-7.5 7.5v321.535a7.5 7.5 0 0 0 7.5 7.5h197.337l8.396 9.793a7.5 7.5 0 0 0 5.694 2.618l32.152-.003c2.189 0 4.27-.957 5.694-2.62l8.389-9.789h41.087v27.463c0 10.752 8.748 19.5 19.502 19.5h16c10.751 0 19.498-8.748 19.498-19.5v-27.463H462.5a7.5 7.5 0 0 0 7.5-7.5V80.751a7.5 7.5 0 0 0-7.5-7.5zm-116.25 52.998v252.5h-25v-252.5h25zm-25 267.5h25v15h-25v-15zm3.75-282.5 8.751-21 8.749 21H325zm16.752 330.5h-16c-2.44 0-4.502-2.061-4.502-4.5v-13.5h25v13.5c0 2.439-2.06 4.5-4.498 4.5zM455 394.786h-93.75V118.749c0-.25-.013-.499-.038-.747a7.708 7.708 0 0 0-.091-.612c-.007-.038-.01-.077-.018-.115a7.446 7.446 0 0 0-.461-1.483l-19.968-47.927a7.5 7.5 0 0 0-13.846-.001l-19.974 47.932c-.201.47-.356.964-.459 1.478-.008.042-.011.084-.019.126-.036.198-.07.398-.09.601a7.443 7.443 0 0 0-.038.747v276.037H263.73a11.976 11.976 0 0 0-9.675 4.907l-6.429 7.502-25.254.002-6.433-7.503a11.984 11.984 0 0 0-9.675-4.908H15V88.251h15v254.035a7.5 7.5 0 0 0 7.5 7.5h168.768a26.936 26.936 0 0 1 21.232 10.343v10.42a41.921 41.921 0 0 0-21.232-5.763H37.5c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h168.768a26.96 26.96 0 0 1 22.488 12.063c.165.246.339.473.525.692.049.058.102.112.153.168a7.559 7.559 0 0 0 .636.628c.158.138.323.269.492.394.056.041.11.085.167.125.234.163.477.314.73.45a7.6 7.6 0 0 0 .767.353c.062.025.126.046.189.069a7.328 7.328 0 0 0 1.494.379c.075.011.149.025.225.034.285.033.574.054.868.054.297 0 .583-.021.867-.054.079-.009.156-.024.234-.036a7.675 7.675 0 0 0 .866-.18c.209-.057.414-.123.615-.197.066-.024.132-.046.197-.072.258-.103.51-.217.753-.346.265-.141.506-.292.739-.454.06-.041.116-.087.175-.131a7.523 7.523 0 0 0 .691-.575c.149-.14.291-.286.427-.438.053-.058.107-.114.158-.174.185-.218.358-.444.517-.682 5.029-7.561 13.435-12.071 22.494-12.071h20.018c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-20.018a41.918 41.918 0 0 0-21.232 5.762v-10.419a26.934 26.934 0 0 1 21.232-10.343h20.018c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-20.018a41.896 41.896 0 0 0-28.733 11.364 41.9 41.9 0 0 0-28.731-11.364H45V28.251h161.268c9.056 0 17.461 4.514 22.486 12.075a7.498 7.498 0 0 0 12.493 0c5.023-7.561 13.43-12.074 22.485-12.074H425v306.535h-41.25c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h48.75a7.5 7.5 0 0 0 7.5-7.5V88.251h15v306.535z"/>
+            <path d="M432.5 364.786h-48.75c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h48.75c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5z"/>
           </svg>
         </div>
       </div>
       <div>
-        <h6 class="mb-3 text-xl font-bold leading-5">Organically grow</h6>
+        <h6 class="mb-3 text-xl font-bold leading-5">Домашние задания</h6>
         <p class="mb-3 text-sm text-gray-900">
           A slice of heaven. O for awesome, this chocka full cuzzie is as rip-off as a cracker. Meanwhile, in behind the bicycle shed, Hercules Morse, as big as a horse and Mrs Falani were up to no good with a bunch of crook pikelets.
         </p>
-        <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+        <div class="flex justify-center md:justify-start">
+          <button
+            type="submit"
+            class="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
+          >
+            Вперед
+          </button>
+        </div>
       </div>
     </div>
     <div class="flex flex-col max-w-md sm:mx-auto sm:flex-row">
       <div class="mr-4">
-        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-          <svg class="w-10 h-10 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-            <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-gray-100">
+          <svg class="w-10 h-10 text-gray-600" fill="currentColor" viewBox="0 0 256 240">
+            <path d="M84.635 20.256c18.383 0 33.286 14.903 33.286 33.286s-14.903 33.286-33.286 33.286-33.286-14.903-33.286-33.286 14.902-33.286 33.286-33.286zM31.002 145.011c0-2.499 1.606-4.194 4.194-4.194s4.194 1.606 4.194 4.194v92.986h91.469v-92.986c0-2.499 1.606-4.194 4.194-4.194 2.499 0 4.194 1.606 4.194 4.194v92.986h29.092V136.623c0-22.934-18.74-41.585-41.585-41.585h-8.388l-24.451 38.015-2.945-28.467 4.016-9.638H76.96l4.016 9.638-3.123 28.645-24.452-38.193h-9.816C20.651 95.038 2 113.778 2 136.623v101.375h29.092v-92.986h-.09zM204.5 2C177.16 2 155 24.16 155 51.5s22.16 49.5 49.5 49.5S254 78.84 254 51.5 231.84 2 204.5 2zm-9.15 74.39c-.15 0-24.79-24.53-24.79-24.53s9.58-9.44 9.73-9.44 15.51 15.22 15.51 15.22l31.32-31.25 9.32 9.25s-40.82 40.75-41.09 40.75z"/>
           </svg>
         </div>
       </div>
       <div>
-        <h6 class="mb-3 text-xl font-bold leading-5">A slice of heaven</h6>
+        <h6 class="mb-3 text-xl font-bold leading-5">Подготовка к ЗНО</h6>
         <p class="mb-3 text-sm text-gray-900">
           Disrupt inspire and think tank, social entrepreneur but preliminary thinking think tank compelling. Inspiring, invest synergy capacity building, white paper; silo, unprecedented challenge B-corp problem-solvers.
         </p>
-        <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+        <div class="flex justify-center md:justify-start">
+          <button
+            type="submit"
+            class="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
+          >
+            Вперед
+          </button>
+        </div>
       </div>
     </div>
   </div>

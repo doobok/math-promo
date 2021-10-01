@@ -4,7 +4,7 @@
     @include('layouts.partials.head')
     @yield('head')
   </head>
-  <body class="text-gray-800 antialiased"
+  <body class="text-gray-800"
         :class="{ 'overflow-hidden max-h-screen': mobileMenu }"
         x-data="{ mobileMenu: false }">
   <div id="app">
