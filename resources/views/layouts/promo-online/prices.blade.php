@@ -24,75 +24,76 @@
         </p>
       </div>
       <div class="max-w-screen-lg sm:mx-auto flex flex-wrap justify-center">
-      {{-- <div class="grid max-w-screen-lg gap-10 md:grid-cols-3 sm:mx-auto flex justify-center"> --}}
 
-        @for ($i=0; $i < 3; $i++)
-        <div class="w-full md:w-1/2 lg:w-1/3 px-5">
-          <div class="p-8 bg-gray-200 rounded">
-            <div class="mb-4 text-center">
-              <p class="text-xl font-bold tracking-wide text-gray-600">
-                Исследователь
-              </p>
-              <div class="flex items-center my-2 justify-center flex-wrap">
-                <p class="mr-2 text-5xl font-semibold text-primary-700 lg:text-6xl">
-                  300
-                </p>
-                <div class="flex flex-nowrap">
-                  <span class="text-xl text-primary-700">грн</span>
-                  <p class="text-lg text-gray-500">/занятие</p>
+        @foreach ($data['prices'] as $price)
+          @if ($price['group'] === 3)
+            <div class="w-full md:w-1/2 lg:w-1/3 px-5">
+              <div class="p-8 bg-gray-200 rounded">
+                <div class="mb-4 text-center">
+                  <p class="text-xl font-bold tracking-wide text-gray-600">
+                    {{$price['name']}}
+                  </p>
+                  <div class="flex items-center my-2 justify-center flex-wrap">
+                    <p class="mr-2 text-5xl font-semibold text-primary-700 lg:text-6xl">
+                        {{$price['multipl'] * $data['global']['mindex']}}
+                    </p>
+                    <div class="flex flex-nowrap">
+                      <span class="text-xl text-primary-700">грн</span>
+                      <p class="text-lg text-gray-500">/занятие</p>
+                    </div>
+                  </div>
                 </div>
+                <ul class="mb-8 space-y-2">
+                  <li class="flex items-center">
+                    <div class="mr-3">
+                      <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
+                        <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
+                        <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
+                      </svg>
+                    </div>
+                    <p class="font-medium text-gray-500">{{$price['count']}} занятий в пакете</p>
+                  </li>
+                  <li class="flex items-center">
+                    <div class="mr-3">
+                      <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
+                        <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
+                        <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
+                      </svg>
+                    </div>
+                    <p class="font-medium text-gray-500">регистрация в системе</p>
+                  </li>
+                  <li class="flex items-center">
+                    <div class="mr-3">
+                      <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
+                        <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
+                        <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
+                      </svg>
+                    </div>
+                    <p class="font-medium text-gray-500">контроль баланса</p>
+                  </li>
+                  <li class="flex items-center">
+                    <div class="mr-3">
+                      <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
+                        <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
+                        <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
+                      </svg>
+                    </div>
+                    <p class="font-medium text-gray-500">история занятий</p>
+                  </li>
+                </ul>
+                <button
+                  type="submit"
+                  class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-400 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
+                >
+                  Купить
+                </button>
               </div>
+              <div class="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75"></div>
+              <div class="w-10/12 h-2 mx-auto bg-gray-900 rounded-b opacity-50"></div>
+              <div class="w-9/12 h-2 mx-auto bg-gray-900 rounded-b opacity-25"></div>
             </div>
-            <ul class="mb-8 space-y-2">
-              <li class="flex items-center">
-                <div class="mr-3">
-                  <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
-                    <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
-                    <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
-                  </svg>
-                </div>
-                <p class="font-medium text-gray-500">10 занятий в пакете</p>
-              </li>
-              <li class="flex items-center">
-                <div class="mr-3">
-                  <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
-                    <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
-                    <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
-                  </svg>
-                </div>
-                <p class="font-medium text-gray-500">регистрация в системе</p>
-              </li>
-              <li class="flex items-center">
-                <div class="mr-3">
-                  <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
-                    <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
-                    <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
-                  </svg>
-                </div>
-                <p class="font-medium text-gray-500">контроль баланса</p>
-              </li>
-              <li class="flex items-center">
-                <div class="mr-3">
-                  <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
-                    <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
-                    <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
-                  </svg>
-                </div>
-                <p class="font-medium text-gray-500">история занятий</p>
-              </li>
-            </ul>
-            <button
-              type="submit"
-              class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-400 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
-            >
-              Купить
-            </button>
-          </div>
-          <div class="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75"></div>
-          <div class="w-10/12 h-2 mx-auto bg-gray-900 rounded-b opacity-50"></div>
-          <div class="w-9/12 h-2 mx-auto bg-gray-900 rounded-b opacity-25"></div>
-        </div>
-      @endfor
+          @endif
+        @endforeach
 
       </div>
     </div>
