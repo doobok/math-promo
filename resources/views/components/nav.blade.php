@@ -19,7 +19,7 @@
                         <span v-scroll-to="'#{{$item->slug}}'" class="text-sm font-semibold text-white uppercase pt-0.5 cursor-pointer">
                           {{$item->title}}
                         </span>
-                        <span class="block w-full h-0.5 bg-transparent group-hover:bg-orange"></span>
+                        <span class="block w-full h-0.5 bg-transparent group-hover:bg-primary-400"></span>
                     </li>
                 @endforeach
               @endif

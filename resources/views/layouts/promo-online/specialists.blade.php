@@ -5,7 +5,7 @@
     </h2>
     <p class="text-base text-gray-700 md:text-lg">
       <div class="subtitle--bg">
-        <span>Мы постоянно мониторим уровень качества уроков</span>
+        <span>мы постоянно мониторим уровень качества уроков</span>
       </div>
     </p>
   </div>

@@ -39,7 +39,7 @@
       <div>
         <h6 class="mb-3 text-xl font-bold leading-5">Школьная программа</h6>
         <p class="mb-3 text-sm text-gray-900">
-          A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear. We never had the chance to.
+          Заполним пробелы в знаниях школьных предметов, поможем понять, изучить и закрепить на должном уровне даже сложные темы. Повысим уровень успешности по учебному предмету.
         </p>
         <div class="flex justify-center md:justify-start">
           <button
@@ -64,7 +64,7 @@
       <div>
         <h6 class="mb-3 text-xl font-bold leading-5">Подготовка к контрольным, экзаменам</h6>
         <p class="mb-3 text-sm text-gray-900">
-          Rough pomfret lemon shark plownose chimaera southern sandfish kokanee northern sea robin Antarctic cod. Yellow-and-black triplefin gulper South American Lungfish mahi-mahi, butterflyfish glass catfish soapfish ling gray mullet!
+          Поможем подготовиться к контрольным, самостоятельным работам, а также к экзаменам. Профильные творческие или прикладные конкурсы и олимпиады - без проблем.
         </p>
         <div class="flex justify-center md:justify-start">
           <button
@@ -89,7 +89,7 @@
       <div>
         <h6 class="mb-3 text-xl font-bold leading-5">Домашние задания</h6>
         <p class="mb-3 text-sm text-gray-900">
-          A slice of heaven. O for awesome, this chocka full cuzzie is as rip-off as a cracker. Meanwhile, in behind the bicycle shed, Hercules Morse, as big as a horse and Mrs Falani were up to no good with a bunch of crook pikelets.
+          Методическая работа с "домашкой" также помогает лучше изучать учебную дисциплину. Репетитор будет надежным другом и наставником в этом процессе.
         </p>
         <div class="flex justify-center md:justify-start">
           <button
@@ -112,7 +112,7 @@
       <div>
         <h6 class="mb-3 text-xl font-bold leading-5">Подготовка к ЗНО</h6>
         <p class="mb-3 text-sm text-gray-900">
-          Disrupt inspire and think tank, social entrepreneur but preliminary thinking think tank compelling. Inspiring, invest synergy capacity building, white paper; silo, unprecedented challenge B-corp problem-solvers.
+          Иди на ЗНО подготовленным! Наша методика позволит повысить итоговый балл внешнего независимого оценивания. В этом уже убедились наши выпускники.
         </p>
         <div class="flex justify-center md:justify-start">
           <button

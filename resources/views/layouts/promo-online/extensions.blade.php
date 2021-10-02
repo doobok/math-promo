@@ -29,7 +29,7 @@
           </span>
         </p>
         <p class="mb-3 text-sm text-gray-900">
-          A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.
+          Место занятия выбираешь ты, и не важно это будет домашняя комната, или скамейка в сквере, главное - это комфорт, который будет способствовать лучшему усвоению учебного материала. Так что избавься лишних внешних возбудителей и обустрой свое место для обучения на свой вкус.
         </p>
       </div>
     </div>
@@ -48,7 +48,7 @@
           </span>
         </p>
         <p class="mb-3 text-sm text-gray-900">
-          A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.
+          Даже часовые пояса не помеха учебе. Выбирай удобное для учебы время и занимайся в свое удовольствие. Но не забывай, что знания лучше усваиваются на "свежую голову" поэтому не переутомляйся и занимайся в тонусе.
         </p>
       </div>
     </div>
@@ -66,7 +66,7 @@
           </span>
         </p>
         <p class="mb-3 text-sm text-gray-900">
-          A flower in my garden, a mystery in my panties.
+          Ты можешь учиться за домашним компьютером или ноутбуком, планшетом или даже мобильным телефоном, или комбинировать эти устройства в зависимости от условий. Главное - это систематические занятия в комфортной обстановке.
         </p>
       </div>
     </div>
@@ -81,15 +81,21 @@
       <div>
         <p class="mb-3 font-semibold text-sm text-primary-500">
           <span class="border-l-4 border-primary-400 pl-2">
-            Используй новейшие технологии
+            Используй передовые технологии
           </span>
         </p>
         <p class="mb-3 text-sm text-gray-900">
-          A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.
+          Онлайн занятия могут дать тебе максимум интерактивных инструментов, которые при удачном использовании могут способствовать качественному процессу обучения. Интерактивные доски, графики, эксперименты, тесты и даже игры - это далеко не весь перечень возможного интерактива онлайн занятий.
         </p>
       </div>
     </div>
-
-
+  </div>
+  <div class="flex justify-center mt-12">
+    <button
+      type="submit"
+      class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
+    >
+      Получить преимущества
+    </button>
   </div>
 </div>
