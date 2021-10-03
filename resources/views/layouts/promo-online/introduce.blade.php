@@ -14,7 +14,7 @@
             </svg>
             <span class="relative">О</span>
           </span>
-          <span class="text-primary-400">Tutor-Math</span>
+          <span class="text-primary-500">Tutor-Math</span>
         </h2>
         <p class="text-base text-gray-700 md:text-lg">
           <div class="subtitle--bg">
@@ -32,7 +32,7 @@
         <div class="mb-2 text-sm text-gray-600 md:mb-2">Подписывайтесь на нас</div>
         <div class="flex items-center space-x-4">
           <div class="flex items-center">
-            <a href="{{$data['social']['f']}}" target="_blank" class="text-gray-600 transition-colors duration-300 hover:text-primary-400">
+            <a href="{{$data['social']['f']}}" target="_blank" class="text-gray-600 transition-colors duration-300 hover:text-primary-500">
               <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
                 <path
                   d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
@@ -41,7 +41,7 @@
             </a>
           </div>
           <div class="flex items-center">
-            <a href="{{$data['social']['i']}}" target="_blank" class="text-gray-600 transition-colors duration-300 hover:text-primary-400">
+            <a href="{{$data['social']['i']}}" target="_blank" class="text-gray-600 transition-colors duration-300 hover:text-primary-500">
               <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
                 <circle cx="15" cy="15" r="4"></circle>
                 <path
@@ -51,7 +51,7 @@
             </a>
           </div>
           <div class="flex items-center">
-            <a href="{{$data['social']['y']}}" target="_blank" class="text-gray-600 transition-colors duration-300 hover:text-primary-400">
+            <a href="{{$data['social']['y']}}" target="_blank" class="text-gray-600 transition-colors duration-300 hover:text-primary-500">
               <svg viewBox="0 0 24 24" fill="currentColor" class="h-6">
                 <path
                   d="M23.8,7.2c0,0-0.2-1.7-1-2.4c-0.9-1-1.9-1-2.4-1C17,3.6,12,3.6,12,3.6h0c0,0-5,0-8.4,0.2 c-0.5,0.1-1.5,0.1-2.4,1c-0.7,0.7-1,2.4-1,2.4S0,9.1,0,11.1v1.8c0,1.9,0.2,3.9,0.2,3.9s0.2,1.7,1,2.4c0.9,1,2.1,0.9,2.6,1 c1.9,0.2,8.2,0.2,8.2,0.2s5,0,8.4-0.3c0.5-0.1,1.5-0.1,2.4-1c0.7-0.7,1-2.4,1-2.4s0.2-1.9,0.2-3.9v-1.8C24,9.1,23.8,7.2,23.8,7.2z M9.5,15.1l0-6.7l6.5,3.4L9.5,15.1z"
@@ -60,7 +60,7 @@
             </a>
           </div>
           <div class="flex items-center">
-            <a href="{{$data['social']['t']}}" target="_blank" class="text-gray-600 transition-colors duration-300 hover:text-primary-400">
+            <a href="{{$data['social']['t']}}" target="_blank" class="text-gray-600 transition-colors duration-300 hover:text-primary-500">
               <svg viewBox="0 0 24 24" fill="currentColor" class="h-6" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
                 <path d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z"/>
               </svg>

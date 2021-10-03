@@ -23,12 +23,7 @@
               <li>передовую онлайн платформу для организации комфортного учебного процесса</li>
             </ul>
           <div class="flex justify-center md:justify-start">
-            <button
-              type="submit"
-              class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
-            >
-              Начать обучение
-            </button>
+            <smpl-button txt="Начать обучение" cls="h-12" clr="secondary"></smpl-button>
           </div>
 
         </div>
@@ -63,7 +58,7 @@
               <div class="mt-4 mb-2 sm:mb-4">
                 <button
                   type="submit"
-                  class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-400 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
+                  class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-500 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
                 >
                   Записаться
                 </button>

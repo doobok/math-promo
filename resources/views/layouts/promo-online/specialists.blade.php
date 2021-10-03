@@ -2,7 +2,7 @@
   <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
     <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
       Лучшие
-      <span class="text-primary-400">репетиторы</span>
+      <span class="text-primary-500">репетиторы</span>
 
     </h2>
     <p class="text-base text-gray-700 md:text-lg">
@@ -19,7 +19,7 @@
         <p class="text-xs text-gray-800">Онлайн репетитор</p>
         <div class="flex flex-nowrap justify-center py-2 w-full">
             @for ($s=0; $s < 5; $s++)
-              <svg xmlns="http://www.w3.org/2000/svg" class="text-primary-400 m-1" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-primary-500 m-1" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
               </svg>
             @endfor
@@ -35,11 +35,8 @@
 
   </div>
   <div class="flex justify-center mt-12">
-    <button
-      type="submit"
-      class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
-    >
-      Подобрать репетитора
-    </button>
+
+    <smpl-button txt="Подобрать репетитора" cls="h-12" clr="secondary"></smpl-button>
+
   </div>
 </div>

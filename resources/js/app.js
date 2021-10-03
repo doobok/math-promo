@@ -16,7 +16,8 @@ Vue.use(VueScrollTo)
 
 
 // Components
-// Vue.component('animate-select', require('./components/AnimateSelector.vue').default);
+Vue.component('smpl-button', require('./components/SimpleButton.vue').default);
+Vue.component('lead-form', require('./components/LeadForm.vue').default);
 
 
 const app = new Vue({

@@ -15,7 +15,7 @@
             </svg>
             <span class="relative">Стоимость</span>
           </span>
-          <span class="text-primary-400">занятий</span>
+          <span class="text-primary-500">занятий</span>
         </h2>
         <p class="text-base text-gray-700 md:text-lg">
           <div class="subtitle--bg">
@@ -46,7 +46,7 @@
                 <ul class="mb-8 space-y-2">
                   <li class="flex items-center">
                     <div class="mr-3">
-                      <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
+                      <svg class="w-4 h-4 text-primary-500" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
                         <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
                         <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
                       </svg>
@@ -55,7 +55,7 @@
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
-                      <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
+                      <svg class="w-4 h-4 text-primary-500" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
                         <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
                         <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
                       </svg>
@@ -64,7 +64,7 @@
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
-                      <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
+                      <svg class="w-4 h-4 text-primary-500" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
                         <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
                         <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
                       </svg>
@@ -73,7 +73,7 @@
                   </li>
                   <li class="flex items-center">
                     <div class="mr-3">
-                      <svg class="w-4 h-4 text-primary-400" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
+                      <svg class="w-4 h-4 text-primary-500" viewBox="0 0 24 24" stroke-linecap="round" stroke-width="2">
                         <polyline fill="none" stroke="currentColor" points="6,12 10,16 18,8"></polyline>
                         <circle cx="12" cy="12" fill="none" r="11" stroke="currentColor"></circle>
                       </svg>
@@ -81,12 +81,9 @@
                     <p class="font-medium text-gray-500">история занятий</p>
                   </li>
                 </ul>
-                <button
-                  type="submit"
-                  class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-400 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
-                >
-                  Купить
-                </button>
+
+                <smpl-button txt="Купить" cls="h-12 w-full" clr="primary"></smpl-button>
+
               </div>
               <div class="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75"></div>
               <div class="w-10/12 h-2 mx-auto bg-gray-900 rounded-b opacity-50"></div>

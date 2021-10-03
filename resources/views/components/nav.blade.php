@@ -19,7 +19,7 @@
                         <span v-scroll-to="'#{{$item->slug}}'" class="text-sm font-semibold text-white uppercase pt-0.5 cursor-pointer">
                           {{$item->title}}
                         </span>
-                        <span class="block w-full h-0.5 bg-transparent group-hover:bg-primary-400"></span>
+                        <span class="block w-full h-0.5 bg-transparent group-hover:bg-primary-500"></span>
                     </li>
                 @endforeach
               @endif
@@ -38,8 +38,8 @@
     </div>
   </div>
 
-  <div id="collapse-navbar" class="fixed hidden inset-0 bg-green-400 bg-opacity-100 z-50 min-h-screen lg:hidden transition-opacity opacity-100 pointer-events-auto">
-    <div class="w-2/3 md:w-1/3 bg-primary min-h-screen absolute right-0 shadow py-4 px-8">
+  <div id="collapse-navbar" class="fixed hidden inset-0 bg-gray-700 bg-opacity-90 z-50 min-h-screen lg:hidden transition-opacity opacity-100 pointer-events-auto">
+    <div class="w-2/3 md:w-1/3 bg-primary-500 min-h-screen absolute right-0 shadow py-4 px-8">
         <button class="absolute top-0 right-0 mt-4 mr-4"
                 onclick="toggleNavbar('collapse-navbar')"
                 >

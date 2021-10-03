@@ -1,7 +1,7 @@
 <div id="{{$id}}" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
     <div>
-      <p class="inline-block px-4 py-2 mb-4 text-xs font-semibold tracking-wider text-white uppercase rounded-full bg-primary-400">
+      <p class="inline-block px-4 py-2 mb-4 text-xs font-semibold tracking-wider text-white uppercase rounded-full bg-primary-500">
         Tutor-Math
       </p>
     </div>
@@ -19,7 +19,7 @@
         </svg>
         <span class="relative">Направления</span>
       </span>
-      <span class="text-primary-400">онлайн обучения</span>
+      <span class="text-primary-500">онлайн обучения</span>
     </h2>
     <p class="text-base text-gray-700 md:text-lg">
       <div class="subtitle--bg">
@@ -42,12 +42,9 @@
           Заполним пробелы в знаниях школьных предметов, поможем понять, изучить и закрепить на должном уровне даже сложные темы. Повысим уровень успешности по учебному предмету.
         </p>
         <div class="flex justify-center md:justify-start">
-          <button
-            type="submit"
-            class="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
-          >
-            Вперед
-          </button>
+
+          <smpl-button txt="Вперед" cls="h-8" clr="secondary"></smpl-button>
+
         </div>
       </div>
     </div>
@@ -67,12 +64,9 @@
           Поможем подготовиться к контрольным, самостоятельным работам, а также к экзаменам. Профильные творческие или прикладные конкурсы и олимпиады - без проблем.
         </p>
         <div class="flex justify-center md:justify-start">
-          <button
-            type="submit"
-            class="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
-          >
-            Вперед
-          </button>
+
+          <smpl-button txt="Вперед" cls="h-8" clr="secondary"></smpl-button>
+
         </div>
       </div>
     </div>
@@ -92,12 +86,9 @@
           Методическая работа с "домашкой" также помогает лучше изучать учебную дисциплину. Репетитор будет надежным другом и наставником в этом процессе.
         </p>
         <div class="flex justify-center md:justify-start">
-          <button
-            type="submit"
-            class="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
-          >
-            Вперед
-          </button>
+
+          <smpl-button txt="Вперед" cls="h-8" clr="secondary"></smpl-button>
+
         </div>
       </div>
     </div>
@@ -115,12 +106,9 @@
           Иди на ЗНО подготовленным! Наша методика позволит повысить итоговый балл внешнего независимого оценивания. В этом уже убедились наши выпускники.
         </p>
         <div class="flex justify-center md:justify-start">
-          <button
-            type="submit"
-            class="inline-flex items-center justify-center h-8 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
-          >
-            Вперед
-          </button>
+
+          <smpl-button txt="Вперед" cls="h-8" clr="secondary"></smpl-button>
+
         </div>
       </div>
     </div>

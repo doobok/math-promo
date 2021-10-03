@@ -3,7 +3,7 @@
     <div class="lg:w-1/2">
       <h2 class="max-w-md mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
         Преимущества обучения с
-        <span class="text-primary-400">онлайн репетитором</span>
+        <span class="text-primary-500">онлайн репетитором</span>
       </h2>
     </div>
     <div class="lg:w-1/2">
@@ -91,11 +91,8 @@
     </div>
   </div>
   <div class="flex justify-center mt-12">
-    <button
-      type="submit"
-      class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
-    >
-      Получить преимущества
-    </button>
+
+    <smpl-button txt="Получить преимущества" cls="h-12" clr="secondary"></smpl-button>
+
   </div>
 </div>

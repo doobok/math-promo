@@ -1,6 +1,6 @@
-<div id="{{$id}}" class=" bg-gray-100">
+<div id="{{$id}}" class=" bg-primary-500">
   <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-    <div class="grid grid-cols-2 gap-5 row-gap-5 sm:grid-cols-3 lg:grid-cols-6">
+    <div class="grid grid-cols-2 gap-5 row-gap-5 sm:grid-cols-3 lg:grid-cols-6 text-white">
 
       <div class="text-center">
         <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-primary-400 sm:w-16 sm:h-16">
@@ -133,90 +133,6 @@
         </h6>
       </div>
 
-      {{-- @for ($i=0; $i < 1; $i++)
-        <div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-primary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div>
-        <div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-secondary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div>
-        <div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-primary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div>
-        <div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-secondary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div><div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-primary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div>
-        <div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-secondary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div>
-        <div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-secondary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div>
-        <div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-primary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div>
-        <div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-secondary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div>
-        <div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-primary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div>
-        <div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-secondary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div><div class="text-center">
-          <div class="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-primary-400 sm:w-16 sm:h-16">
-          </div>
-          <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-            Информатика
-          </h6>
-        </div>
-      @endfor --}}
 
     </div>
   </div>

@@ -13,7 +13,7 @@
           </svg>
           <span class="relative">Путь</span>
         </span>
-        <span class="text-primary-400">к успеху</span>
+        <span class="text-primary-500">к успеху</span>
       </h2>
       <p class="text-base text-gray-700 md:text-lg">
         <div class="subtitle--bg">
@@ -36,7 +36,7 @@
         </div>
         <div class="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-primary-50">
           <div class="flex items-center mb-1">
-            <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-primary-900 rounded bg-primary-400">2</span>
+            <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-primary-900 rounded bg-primary-500">2</span>
             <p class="text-lg font-semibold sm:text-base">
               Пробный урок
             </p>
@@ -47,7 +47,7 @@
         </div>
         <div class="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-primary-50">
           <div class="flex items-center mb-1">
-            <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-white rounded md:text-primary-900 bg-secondary-400 md:bg-primary-400">3</span>
+            <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-white rounded md:text-primary-900 bg-secondary-400 md:bg-primary-500">3</span>
             <p class="text-lg font-semibold sm:text-base">
               Расписание
             </p>
@@ -58,7 +58,7 @@
         </div>
         <div class="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-secondary-50">
           <div class="flex items-center mb-1">
-            <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-primary-900 rounded md:text-white bg-primary-400 md:bg-secondary-400">4</span>
+            <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-primary-900 rounded md:text-white bg-primary-500 md:bg-secondary-400">4</span>
             <p class="text-lg font-semibold sm:text-base">
               Систематические занятия
             </p>
@@ -78,12 +78,9 @@
     </div>
 
     <div class="flex justify-center mt-12">
-      <button
-        type="submit"
-        class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary-400 hover:bg-secondary-700 focus:shadow-outline focus:outline-none"
-      >
-        Начать сейчас
-      </button>
+
+      <smpl-button txt="Начать сейчас" cls="h-12" clr="secondary"></smpl-button>
+
     </div>
 
   </div>
