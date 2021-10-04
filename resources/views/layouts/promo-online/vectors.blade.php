@@ -43,7 +43,7 @@
         </p>
         <div class="flex justify-center md:justify-start">
 
-          <smpl-button txt="Вперед" cls="h-8" clr="secondary"></smpl-button>
+          <smpl-button txt="Вперед" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
 
         </div>
       </div>
@@ -65,7 +65,7 @@
         </p>
         <div class="flex justify-center md:justify-start">
 
-          <smpl-button txt="Вперед" cls="h-8" clr="secondary"></smpl-button>
+          <smpl-button txt="Вперед" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
 
         </div>
       </div>
@@ -87,7 +87,7 @@
         </p>
         <div class="flex justify-center md:justify-start">
 
-          <smpl-button txt="Вперед" cls="h-8" clr="secondary"></smpl-button>
+          <smpl-button txt="Вперед" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
 
         </div>
       </div>
@@ -107,7 +107,7 @@
         </p>
         <div class="flex justify-center md:justify-start">
 
-          <smpl-button txt="Вперед" cls="h-8" clr="secondary"></smpl-button>
+          <smpl-button txt="Вперед" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
 
         </div>
       </div>

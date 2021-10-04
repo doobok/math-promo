@@ -82,7 +82,7 @@
                   </li>
                 </ul>
 
-                <smpl-button txt="Купить" cls="h-12 w-full" clr="primary"></smpl-button>
+                <smpl-button txt="Купить" cls="h-12 w-full" clr="primary" priceid="{{$price['id']}}" cost="{{$price['multipl'] * $price['count'] * $data['global']['mindex']}}" slug="{{$slug}}"></smpl-button>
 
               </div>
               <div class="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75"></div>

@@ -90,7 +90,22 @@
               <span>Готово</span>
           </div>
 
+          <template v-if="vars.cost > 0">
+            <p class="text-base text-gray-300 m-3">
+              Заказ успешно сформирован 🎫, для оплаты Вас будет перенаправлено на соответствующую страницу, следуйте инструкциям.
+            </p>
 
+            <div class="flex justify-center mt-3">
+              <a
+                class="bg-primary-500 hover:bg-primary-600 text-white w-full md:w-3/5 p-4 text-sm font-bold uppercase rounded shadow hover:shadow-lg outline-none focus:outline-none"
+                :href="'http://tm.cam/tutor-pay?deal=' + orderid"
+              >
+                  Оплатить
+              </a>
+            </div>
+
+          </template>
+          <template v-else>
             <p class="text-base text-gray-300 m-3">
               Совсем скоро мы с Вами свяжемся, ☎️ ожидайте звонка!
             </p>
@@ -104,6 +119,7 @@
                   Вернутся к просмотру сайта
               </button>
             </div>
+          </template>
 
         </div>
         </template>
@@ -131,6 +147,7 @@ export default {
           error: '',
           name: '',
           phone: '',
+          orderid: '',
         }
     },
     methods: {
@@ -143,7 +160,9 @@ export default {
           this.$store.dispatch('SEND_LEAD', {
               firstname: this.name,
               phone: this.phoneNum,
-              marker: this.slug,
+              marker: this.vars.marker,
+              priceId: this.vars.priceid,
+              cost: this.vars.cost,
            }).then((res) => {
             // проверяем наличие служебного сообщения из сервера
             if (res.msg) {
@@ -153,9 +172,10 @@ export default {
 
             // проверяем облаботал ли сервер запрос
             } else if (res.success) {
+              this.orderid = res.id;
 
               // вызываем событие GA
-              gtag('event', 'sendPhone', {'event_category': 'getPhone', 'event_label': this.slug });
+              gtag('event', 'sendPhone', {'event_category': 'getPhone', 'event_label': this.vars.marker });
 
               this.loading = false;
               this.sended = true;
@@ -176,7 +196,7 @@ export default {
     },
     computed: {
       ...mapGetters(['formstatus']),
-      ...mapGetters(['slug']),
+      ...mapGetters(['vars']),
 
       phoneNum: function() {
                 var str = this.phone;

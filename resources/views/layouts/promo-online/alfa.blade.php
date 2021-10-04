@@ -23,7 +23,7 @@
               <li>передовую онлайн платформу для организации комфортного учебного процесса</li>
             </ul>
           <div class="flex justify-center md:justify-start">
-            <smpl-button txt="Начать обучение" cls="h-12" clr="secondary"></smpl-button>
+            <smpl-button txt="Начать обучение" cls="h-12" clr="secondary" slug="{{$slug}}"></smpl-button>
           </div>
 
         </div>

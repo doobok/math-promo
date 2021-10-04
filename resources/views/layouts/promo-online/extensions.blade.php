@@ -92,7 +92,7 @@
   </div>
   <div class="flex justify-center mt-12">
 
-    <smpl-button txt="Получить преимущества" cls="h-12" clr="secondary"></smpl-button>
+    <smpl-button txt="Получить преимущества" cls="h-12" clr="secondary" slug="{{$slug}}"></smpl-button>
 
   </div>
 </div>

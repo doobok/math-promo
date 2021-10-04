@@ -12,11 +12,15 @@
 <script>
 import { mapGetters } from "vuex";
 export default {
-  props: ['cls', 'clr', 'txt'],
+  props: ['cls', 'clr', 'txt', 'slug', 'priceid', 'cost'],
   methods:{
     opnForm(){
       this.$store.dispatch('TUGGLE_FORM', true);
-      this.$store.dispatch('PUSH_SLUG', this.txt );
+      this.$store.dispatch('PUSH_VARS', {
+        marker: 'PROMO ' + this.slug + ' ' + this.txt,
+        priceid: this.priceid,
+        cost: this.cost,
+      });
     },
   },
 

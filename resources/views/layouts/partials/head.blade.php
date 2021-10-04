@@ -32,9 +32,3 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <link href="{{ mix('css/app.css')}}" rel="stylesheet">
-{{-- <link href='{{ route('sitemap') }}' rel='alternate' title='Sitemap' type='application/rss+xml'/> --}}
-
-{{-- <script src="https://cdn.jsdelivr.net/gh/alpine-collective/alpine-magic-helpers@1.1.x/dist/index.min.js"
-            defer></script>
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
-        defer></script> --}}

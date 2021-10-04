@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Cache;
 
 class PagesController extends Controller
 {
-    public function promoOnline()
+    public function promoPage($slug)
     {
       $key = 'global_data';
 
@@ -18,8 +18,14 @@ class PagesController extends Controller
           Cache::put($key, $data, 86400);
       }
 
-      return view('promos.online', [
-        'data' => $data,
-      ]);
+      try {
+        return view('promos.' . $slug, [
+          'data' => $data,
+          'slug' => $slug,
+        ]);
+      } catch (\Exception $e) {
+        abort(404);
+      }
+
     }
 }

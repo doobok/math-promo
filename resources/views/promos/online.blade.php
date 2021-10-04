@@ -4,8 +4,8 @@
 @component('components.meta')
 
   @slot('title') Репетитор онлайн | Tutor-Math @endslot
-  @slot('description') Desc @endslot
-  @slot('image') /main.jpg @endslot
+  @slot('description') Занятия с репетитором онлайн. Репетиторский образовательный центр Tutor-Math - математика, физика, английский и другие предметы @endslot
+  @slot('image') /img/online/index.jpg @endslot
   @slot('date') @endslot
 
 @endcomponent

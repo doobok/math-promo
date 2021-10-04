@@ -8,3 +8,4 @@
     </div>
   </div>
 </footer>
+<div hidden class="bg-primary-500 bg-primary-600 bg-secondary-500 bg-secondary-600"></div>

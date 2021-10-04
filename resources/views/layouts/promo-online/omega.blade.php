@@ -36,7 +36,7 @@
         </div>
         <div class="flex justify-center md:justify-start">
 
-          <smpl-button txt="Приступить к обучению" cls="h-12" clr="primary"></smpl-button>
+          <smpl-button txt="Приступить к обучению" cls="h-12" clr="primary" slug="{{$slug}}"></smpl-button>
 
         </div>
       </div>

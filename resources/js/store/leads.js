@@ -3,23 +3,26 @@ import Axios from 'axios';
 export default {
   state: {
     tuggleform: false,
-    slug: ""
+    vars: {
+      marker: "",
+      priceid: "",
+      cost: 0,
+    }
   },
   getters: {
     formstatus: state => {
       return state.tuggleform;
     },
-    slug: state => {
-      return state.slug;
+    vars: state => {
+      return state.vars;
     }
   },
   mutations: {
     SET_FORM_STATUS: (state, payload) => {
         state.tuggleform = payload;
     },
-    SET_SLUG: (state, payload) => {
-      state.slug = payload;
-      // console.log(state.slug);
+    SET_VARS: (state, payload) => {
+      state.vars = payload;
     },
   },
   actions: {
@@ -27,8 +30,8 @@ export default {
       context.commit('SET_FORM_STATUS', payload);
     },
     // Сохранение фразы с кнопки
-    PUSH_SLUG : (context, payload) => {
-        context.commit('SET_SLUG', payload);
+    PUSH_VARS : (context, payload) => {
+        context.commit('SET_VARS', payload);
     },
 
     // отправка лида
