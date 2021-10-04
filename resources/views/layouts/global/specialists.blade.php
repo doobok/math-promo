@@ -16,7 +16,7 @@
       <div class="grid grid-cols-1 justify-items-center place-content-start">
         <img class="object-cover w-24 h-24 rounded-full shadow" src="https://tutor-math.com.ua/storage/{{$tutor['image']}}" alt="Person" />
         <p class="text-lg font-bold mt-3">{{$tutor['name']}}</p>
-        <p class="text-xs text-gray-800">Онлайн репетитор</p>
+        <p class="text-xs text-gray-800">{{$category}}</p>
         <div class="flex flex-nowrap justify-center py-2 w-full">
             @for ($s=0; $s < 5; $s++)
               <svg xmlns="http://www.w3.org/2000/svg" class="text-primary-500 m-1" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

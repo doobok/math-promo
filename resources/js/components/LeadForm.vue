@@ -98,7 +98,7 @@
             <div class="flex justify-center mt-3">
               <a
                 class="bg-primary-500 hover:bg-primary-600 text-white w-full md:w-3/5 p-4 text-sm font-bold uppercase rounded shadow hover:shadow-lg outline-none focus:outline-none"
-                :href="'http://tm.cam/tutor-pay?deal=' + orderid"
+                :href="'https://tutor-math.com.ua/tutor-pay?deal=' + orderid"
               >
                   Оплатить
               </a>

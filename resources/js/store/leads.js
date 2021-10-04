@@ -37,7 +37,7 @@ export default {
     // отправка лида
     SEND_LEAD : (context, payload) => {
       console.log(payload);
-      return Axios.post('http://tm.cam/api/v1/send-lead', payload)
+      return Axios.post('https://tutor-math.com.ua/api/v1/send-lead', payload)
       .then((response) => {
         // какоето действие из состоянием (оставил на будущее)
         // if (response.success === true) {
