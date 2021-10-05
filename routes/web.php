@@ -15,4 +15,10 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'policy');
 Route::view('/policy', 'policy');
 
+Route::get('/sitemap.xml', function () {
+  return response()->view('sitemap')->header('Content-Type', 'text/xml');
+});
+
+
+
 Route::get('/{slug}', 'App\Http\Controllers\PagesController@promoPage');
