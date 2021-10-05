@@ -2,7 +2,7 @@
   <div class="w-full z-50 top-0 py-3 sm:py-5 absolute">
     <div class="container mx-auto flex justify-between items-center">
         <div>
-            <a href="/" class="text-2xl text-white font-bold ml-2">
+            <a href="#" class="text-2xl text-white font-bold ml-2">
               {{config('app.name')}}
               {{-- <img src="/img/logo.png"
                    class="w-24 md:w-36 lg:w-48"
