@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /policy
 Allow: /
+
+Sitemap: https://p.tutor-math.com.ua/sitemap.xml
