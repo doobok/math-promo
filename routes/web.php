@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::view('/', 'policy');
 Route::view('/policy', 'policy');
 
 Route::get('/{slug}', 'App\Http\Controllers\PagesController@promoPage');
