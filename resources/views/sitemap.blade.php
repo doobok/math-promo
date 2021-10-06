@@ -4,9 +4,14 @@
 
 
 <url>
-  <loc>https://p.tutor-math.com.ua/online</loc>
+  <loc>{{route('index')}}</loc>
   <lastmod>{{ date("Y-m-d H:i:s") }}</lastmod>
   <priority>1.00</priority>
+</url>
+<url>
+  <loc>{{route('page', 'online')}}</loc>
+  <lastmod>{{ date("Y-m-d H:i:s") }}</lastmod>
+  <priority>0.90</priority>
 </url>
 
 

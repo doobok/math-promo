@@ -8,6 +8,25 @@ use Illuminate\Support\Str;
 
 class PagesController extends Controller
 {
+    public function index()
+    {
+      // работаем с кэшем
+      $key = 'global_data';
+
+      $data = Cache::get($key);
+
+      if($data === null) {
+          $data = json_decode(file_get_contents('https://tutor-math.com.ua/api/public/pr-data'), true);
+          Cache::put($key, $data, 86400);
+      }
+
+      return view('promos.online', [
+        'data' => $data,
+        'slug' => 'online',
+      ]);
+
+    }
+
     public function promoPage($slug)
     {
       // работаем с кэшем
@@ -21,6 +40,10 @@ class PagesController extends Controller
       }
       // очищаем слагчасть от параметров
       $clear_slug = Str::before($slug, '?');
+
+      if (!$clear_slug) {
+        $clear_slug = 'online';
+      }
 
       try {
         return view('promos.' . $clear_slug, [
