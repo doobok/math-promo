@@ -17,7 +17,7 @@
           (object) ['slug' => 'vectors', 'title' => 'Направления подготовки'],
           (object) ['slug' => 'steps', 'title' => 'Как начать обучение'],
           (object) ['slug' => 'introduce', 'title' => 'О нас'],
-          (object) ['slug' => 'prices', 'title' => 'Цены'],
+   //       (object) ['slug' => 'prices', 'title' => 'Цены'],
           (object) ['slug' => 'specialists', 'title' => 'Преподаватели'],
         ]])
 
@@ -29,7 +29,7 @@
 @include('layouts.promo-online.steps', ['id' => 'steps'])
 @include('layouts.global.numbers', ['id' => 'numbers'])
 @include('layouts.promo-online.introduce', ['id' => 'introduce'])
-@include('layouts.promo-online.prices', ['id' => 'prices'])
+{{--@include('layouts.promo-online.prices', ['id' => 'prices'])--}}
 @include('layouts.global.specialists', ['id' => 'specialists', 'category' => 'Онлайн репетитор'])
 
 @include('layouts.promo-online.omega')

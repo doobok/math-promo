@@ -1,4 +1,4 @@
-<div id="{{$id}}" class="relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col">
+<div id="{{$id}}" class="bg-gray-100 relative flex flex-col-reverse py-16 lg:py-0 lg:flex-col">
   <div class="w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:py-20 lg:max-w-screen-xl">
     <div class="mb-0 lg:max-w-xl lg:pr-8 xl:pr-6">
       <div class="max-w-xl mb-3 md:mx-auto sm:text-center lg:max-w-2xl md:mb-5">
