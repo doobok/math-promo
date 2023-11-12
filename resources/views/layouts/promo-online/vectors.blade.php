@@ -17,13 +17,13 @@
           </defs>
           <rect fill="url(#27df4f81-c854-45de-942a-fe90f7a300f9)" width="100" height="80"></rect>
         </svg>
-        <span class="relative">Направления</span>
+        <span class="relative">{{__('vectors.title-1')}}</span>
       </span>
-      <span class="text-primary-500">онлайн обучения</span>
+      <span class="text-primary-500">{{__('vectors.title-2')}}</span>
     </h2>
     <p class="text-base text-gray-700 md:text-lg">
       <div class="subtitle--bg">
-        <span>выберите один или несколько направлений для обучения и начинай развиваться уже сегодня</span>
+        <span>{{__('vectors.description')}}</span>
       </div>
     </p>
   </div>
@@ -37,13 +37,13 @@
         </div>
       </div>
       <div>
-        <h6 class="mb-3 text-xl font-bold leading-5">Школьная программа</h6>
+        <h6 class="mb-3 text-xl font-bold leading-5">{{__('vectors.element-1-t')}}</h6>
         <p class="mb-3 text-sm text-gray-900">
-          Заполним пробелы в знаниях школьных предметов, поможем понять, изучить и закрепить на должном уровне даже сложные темы. Повысим уровень успешности по учебному предмету.
+            {{__('vectors.element-1-d')}}
         </p>
         <div class="flex justify-center md:justify-start">
 
-          <smpl-button txt="Вперед" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
+          <smpl-button txt="{{__('vectors.button')}}" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
 
         </div>
       </div>
@@ -59,13 +59,13 @@
         </div>
       </div>
       <div>
-        <h6 class="mb-3 text-xl font-bold leading-5">Подготовка к контрольным, экзаменам</h6>
+        <h6 class="mb-3 text-xl font-bold leading-5">{{__('vectors.element-2-t')}}</h6>
         <p class="mb-3 text-sm text-gray-900">
-          Поможем подготовиться к контрольным, самостоятельным работам, а также к экзаменам. Профильные творческие или прикладные конкурсы и олимпиады - без проблем.
+            {{__('vectors.element-2-d')}}
         </p>
         <div class="flex justify-center md:justify-start">
 
-          <smpl-button txt="Вперед" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
+          <smpl-button txt="{{__('vectors.button')}}" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
 
         </div>
       </div>
@@ -81,13 +81,13 @@
         </div>
       </div>
       <div>
-        <h6 class="mb-3 text-xl font-bold leading-5">Домашние задания</h6>
+        <h6 class="mb-3 text-xl font-bold leading-5">{{__('vectors.element-3-t')}}</h6>
         <p class="mb-3 text-sm text-gray-900">
-          Методическая работа с "домашкой" также помогает лучше изучать учебную дисциплину. Репетитор будет надежным другом и наставником в этом процессе.
+            {{__('vectors.element-3-d')}}
         </p>
         <div class="flex justify-center md:justify-start">
 
-          <smpl-button txt="Вперед" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
+          <smpl-button txt="{{__('vectors.button')}}" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
 
         </div>
       </div>
@@ -101,13 +101,13 @@
         </div>
       </div>
       <div>
-        <h6 class="mb-3 text-xl font-bold leading-5">Подготовка к ЗНО</h6>
+        <h6 class="mb-3 text-xl font-bold leading-5">{{__('vectors.element-4-t')}}</h6>
         <p class="mb-3 text-sm text-gray-900">
-          Иди на ЗНО подготовленным! Наша методика позволит повысить итоговый балл внешнего независимого оценивания. В этом уже убедились наши выпускники.
+            {{__('vectors.element-4-d')}}
         </p>
         <div class="flex justify-center md:justify-start">
 
-          <smpl-button txt="Вперед" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
+          <smpl-button txt="{{__('vectors.button')}}" cls="h-8" clr="secondary" slug="{{$slug}}"></smpl-button>
 
         </div>
       </div>

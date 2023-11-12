@@ -27,16 +27,16 @@
       <div class="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
         <div class="max-w-xl mb-6">
           <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-            Онлайн
-            <span class="inline-block text-primary-500">репетитор</span>
+            {{__('omega.title-1')}}
+            <span class="inline-block text-primary-500">{{__('omega.title-2')}}</span>
           </h2>
           <p class="text-base text-gray-100 md:text-lg">
-            Присоединяйся к сотням учеников, которые уже ощутили преимущества дистанционного онлайн обучения.
+              {{__('omega.description')}}
           </p>
         </div>
         <div class="flex justify-center md:justify-start">
 
-          <smpl-button txt="Приступить к обучению" cls="h-12" clr="primary" slug="{{$slug}}"></smpl-button>
+          <smpl-button txt="{{__('omega.button')}}" cls="h-12" clr="primary" slug="{{$slug}}"></smpl-button>
 
         </div>
       </div>

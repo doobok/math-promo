@@ -9,7 +9,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          Математика
+          {{__('subjects.mathematics')}}
         </h6>
       </div>
       <div class="text-center">
@@ -20,7 +20,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          Английский
+            {{__('subjects.english')}}
         </h6>
       </div>
       <div class="text-center">
@@ -30,7 +30,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          Физика
+            {{__('subjects.physics')}}
         </h6>
       </div>
       <div class="text-center">
@@ -41,7 +41,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          История
+            {{__('subjects.history')}}
         </h6>
       </div>
       <div class="text-center">
@@ -53,7 +53,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          Химия
+            {{__('subjects.chemistry')}}
         </h6>
       </div>
       <div class="text-center">
@@ -64,7 +64,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          Немецкий
+            {{__('subjects.german')}}
         </h6>
       </div>
       <div class="text-center">
@@ -75,7 +75,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          Украинский
+            {{__('subjects.ukrainian')}}
         </h6>
       </div>
       <div class="text-center">
@@ -86,7 +86,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          Информатика
+            {{__('subjects.informatics')}}
         </h6>
       </div>
       <div class="text-center">
@@ -97,7 +97,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          Литература
+            {{__('subjects.literature')}}
         </h6>
       </div>
       <div class="text-center">
@@ -108,7 +108,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          Биология
+            {{__('subjects.biology')}}
         </h6>
       </div>
       <div class="text-center">
@@ -119,7 +119,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          Польский
+            {{__('subjects.polish')}}
         </h6>
       </div>
       <div class="text-center">
@@ -129,7 +129,7 @@
           </svg>
         </div>
         <h6 class="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-          География
+            {{__('subjects.geography')}}
         </h6>
       </div>
 

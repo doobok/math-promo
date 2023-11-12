@@ -1,5 +1,8 @@
 require('./bootstrap');
 
+// мультиязычность
+import './ml';
+
 // Vue
 window.Vue = require('vue').default;
 

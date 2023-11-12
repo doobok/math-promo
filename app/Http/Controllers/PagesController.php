@@ -3,56 +3,52 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 
 class PagesController extends Controller
 {
-    public function index()
+    public function promoPage(Request $request)
     {
-      // работаем с кэшем
-      $key = 'global_data';
+        $slug       = $request->segment(1, 'online');
+        $language   = $this->setLanguage($slug);
 
-      $data = Cache::get($key);
+        $data = cache()->remember('global_data_' . $language, 86400, function () use ($language) {
+            return json_decode(file_get_contents('https://tutor-math.com.ua/api/public/pr-data?language=' . $language), true);
+        });
 
-      if($data === null) {
-          $data = json_decode(file_get_contents('https://tutor-math.com.ua/api/public/pr-data'), true);
-          Cache::put($key, $data, 86400);
-      }
-
-      return view('promos.online', [
-        'data' => $data,
-        'slug' => 'online',
-      ]);
-
+        try {
+            return view('promos.' . $slug, [
+                'data' => $data,
+                'slug' => $slug,
+                'language' => $language,
+            ]);
+        } catch (\Exception $e) {
+            abort(404);
+        }
     }
 
-    public function promoPage($slug)
+    /**
+     * @param string $slug
+     * @return string
+     */
+    private function setLanguage(string $slug): string
     {
-      // работаем с кэшем
-      $key = 'global_data';
+        $lang = Str::before($slug, '-');
+        $language = in_array($lang, self::languages()) ? $lang : 'ru';
+        App::setLocale($language);
+        return $language;
+    }
 
-      $data = Cache::get($key);
-
-      if($data === null) {
-          $data = json_decode(file_get_contents('https://tutor-math.com.ua/api/public/pr-data'), true);
-          Cache::put($key, $data, 86400);
-      }
-      // очищаем слагчасть от параметров
-      $clear_slug = Str::before($slug, '?');
-
-      if (!$clear_slug) {
-        $clear_slug = 'online';
-      }
-
-      try {
-        return view('promos.' . $clear_slug, [
-          'data' => $data,
-          'slug' => $clear_slug,
-        ]);
-      } catch (\Exception $e) {
-        abort(404);
-      }
-
+    /**
+     * @return array
+     */
+    private static function languages(): array
+    {
+        return [
+            'uk',
+            'ru'
+        ];
     }
 }

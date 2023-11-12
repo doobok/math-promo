@@ -11,13 +11,13 @@
             </defs>
             <rect fill="url(#27df4f81-c854-45de-942a-fe90f7a300f7)" width="100" height="80"></rect>
           </svg>
-          <span class="relative">Путь</span>
+          <span class="relative">{{__('steps.title-1')}}</span>
         </span>
-        <span class="text-primary-500">к успеху</span>
+        <span class="text-primary-500">{{__('steps.title-2')}}</span>
       </h2>
       <p class="text-base text-gray-700 md:text-lg">
         <div class="subtitle--bg">
-          <span>Четыре простых шага, которые помогут тебе изучить любой учебный предмет</span>
+          <span>{{__('steps.description')}}</span>
         </div>
       </p>
     </div>
@@ -27,44 +27,44 @@
           <div class="flex items-center mb-1">
             <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-white rounded bg-secondary-400">1</span>
             <p class="text-lg font-semibold sm:text-base">
-              Заявка
+                {{__('steps.element-1-t')}}
             </p>
           </div>
           <p class="text-sm text-gray-900">
-            Оставь заявку на сайте в которой укажи свои контактные данные и жди звонка от Tutor-Math
+              {{__('steps.element-1-d')}}
           </p>
         </div>
         <div class="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-primary-50">
           <div class="flex items-center mb-1">
             <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-primary-900 rounded bg-primary-500">2</span>
             <p class="text-lg font-semibold sm:text-base">
-              Пробный урок
+                {{__('steps.element-2-t')}}
             </p>
           </div>
           <p class="text-sm text-gray-900">
-            По желанию ты можешь пройти пробное занятие на котором репетитор определит твой уровень знаний по предмету
+              {{__('steps.element-2-d')}}
           </p>
         </div>
         <div class="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-primary-50">
           <div class="flex items-center mb-1">
             <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-white rounded md:text-primary-900 bg-secondary-400 md:bg-primary-500">3</span>
             <p class="text-lg font-semibold sm:text-base">
-              Расписание
+                {{__('steps.element-3-t')}}
             </p>
           </div>
           <p class="text-sm text-gray-900">
-            Мы составим для тебя удобное расписание, учитывая твои пожелания, чтобы занятия проходили с максимальной эффективностью
+              {{__('steps.element-3-d')}}
           </p>
         </div>
         <div class="rounded lg:p-5 lg:transition lg:duration-300 lg:hover:bg-secondary-50">
           <div class="flex items-center mb-1">
             <span class="flex items-center justify-center w-4 h-4 mr-2 text-xs font-medium text-primary-900 rounded md:text-white bg-primary-500 md:bg-secondary-400">4</span>
             <p class="text-lg font-semibold sm:text-base">
-              Систематические занятия
+                {{__('steps.element-4-t')}}
             </p>
           </div>
           <p class="text-sm text-gray-900">
-            Систематически "включайся" в занятия в соответствии с согласованным расписанием, репетитор будет тебя ждать в онлайн комнате
+              {{__('steps.element-4-d')}}
           </p>
         </div>
       </div>
@@ -79,7 +79,7 @@
 
     <div class="flex justify-center mt-12">
 
-      <smpl-button txt="Начать сейчас" cls="h-12" clr="secondary" slug="{{$slug}}"></smpl-button>
+      <smpl-button txt="{{__('steps.button')}}" cls="h-12" clr="secondary" slug="{{$slug}}"></smpl-button>
 
     </div>
 

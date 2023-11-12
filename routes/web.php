@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'App\Http\Controllers\PagesController@index')->name('index');
+Route::get('/', 'App\Http\Controllers\PagesController@promoPage')->name('index');
 Route::view('/policy', 'policy')->name('policy');
 
 Route::get('/sitemap.xml', function () {

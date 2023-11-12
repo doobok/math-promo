@@ -12,24 +12,21 @@
               </defs>
               <rect fill="url(#27df4f81-c854-45de-942a-fe90f7a300f7)" width="100" height="80"></rect>
             </svg>
-            <span class="relative">О</span>
+            <span class="relative">{{__('introduce.about')}}</span>
           </span>
           <span class="text-primary-500">Tutor-Math</span>
         </h2>
         <p class="text-base text-gray-700 md:text-lg">
           <div class="subtitle--bg">
-            <span>Обучение онлайн - доступное для каждого!</span>
+            <span>{{__('introduce.description')}}</span>
           </div>
         </p>
       </div>
       <div class="mb-8 text-left">
-        <p class="mb-2">С 2019 году мы занимаемся онлайн образованием и достигли в этом направлении значительных успехов. Мы разработали образовательную онлайн платформу, которая позволяет очень быстро тапросто начать обучение даже новичку.</p>
-        <p class="mb-2">Образование в онлайне - мощный инструмент, который поможет миллионам людей по всему миру получить качественные знания и работать над собой, развиваясь и прогрессируя.</p>
-        <p class="mb-1">
-        Если эта тема для тебя нова - мы советуем быстрее в ней разобраться и самостоятельно убедиться в ее преимуществах.</p>
+          {!! __('introduce.body') !!}
       </div>
       <div class="flex flex-col items-center">
-        <div class="mb-2 text-sm text-gray-600 md:mb-2">Подписывайтесь на нас</div>
+        <div class="mb-2 text-sm text-gray-600 md:mb-2">{{__('introduce.subscribe')}}</div>
         <div class="flex items-center space-x-4">
           <div class="flex items-center">
             <a href="{{$data['social']['f']}}" target="_blank" class="text-gray-600 transition-colors duration-300 hover:text-primary-500">

@@ -11,28 +11,28 @@
       <div class="flex flex-col items-center justify-between xl:flex-row">
         <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
           <h1 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-            Онлайн репетитор
+            {{__('alfa.title')}}
           </h1>
           <div class="subtitle--bg">
-            <span>- выбор тех для кого важны знания</span>
+            <span>- {{__('alfa.subtitle')}}</span>
           </div>
-          <p class="max-w-xl my-4 text-base text-gray-200 md:text-lg font-bold">Выбирая онлайн репетитора Tutor-Math, вы получаете:</p>
+          <p class="max-w-xl my-4 text-base text-gray-200 md:text-lg font-bold">{{__('alfa.list-title')}}</p>
             <ul class="list-inside lg:list-outside list-disc max-w-xl mb-7 text-base text-gray-200 md:text-lg">
-              <li>удобный график для изучения школьной дисциплины</li>
-              <li>широкий выбор учебных предметов</li>
-              <li>передовую онлайн платформу для организации комфортного учебного процесса</li>
+              <li>{{__('alfa.element-1')}}</li>
+              <li>{{__('alfa.element-2')}}</li>
+              <li>{{__('alfa.element-3')}}</li>
             </ul>
           <div class="flex justify-center md:justify-start">
-            <smpl-button txt="Начать обучение" cls="h-12" clr="secondary" slug="{{$slug}}"></smpl-button>
+            <smpl-button txt="{{__('alfa.button')}}" cls="h-12" clr="secondary" slug="{{$slug}}"></smpl-button>
           </div>
 
         </div>
         <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
           <div class="bg-white rounded shadow-2xl p-7 sm:p-10">
             <h3 class="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
-              Пробное занятие
+                {{__('alfa.demo-lesson')}}
             </h3>
-            <smpl-form slug="{{$slug}}"></smpl-form>
+            <smpl-form slug="{{$slug}}" lang="{{$language}}"></smpl-form>
           </div>
         </div>
       </div>

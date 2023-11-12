@@ -1,13 +1,13 @@
 <div id="{{$id}}" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
   <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
     <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-      Лучшие
-      <span class="text-primary-500">репетиторы</span>
+        {{__('specialists.title-1')}}
+      <span class="text-primary-500">{{__('specialists.title-2')}}</span>
 
     </h2>
     <p class="text-base text-gray-700 md:text-lg">
       <div class="subtitle--bg">
-        <span>мы постоянно мониторим уровень качества уроков</span>
+        <span>{{__('specialists.description')}}</span>
       </div>
     </p>
   </div>
@@ -36,7 +36,7 @@
   </div>
   <div class="flex justify-center mt-12">
 
-    <smpl-button txt="Подобрать репетитора" cls="h-12" clr="secondary" slug="{{$slug}}"></smpl-button>
+    <smpl-button txt="{{__('specialists.button')}}" cls="h-12" clr="secondary" slug="{{$slug}}"></smpl-button>
 
   </div>
 </div>
